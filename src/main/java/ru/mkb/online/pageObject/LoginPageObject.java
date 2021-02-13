@@ -92,6 +92,7 @@ public class LoginPageObject extends Base {
         String xpath = dynamicXpathErrorLabel + errorMessage;
         Assert.assertTrue(waitVisibilityOfElementByLocator(xpath));
 
+
     }
 
     /**
