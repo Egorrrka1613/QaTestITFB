@@ -41,7 +41,6 @@ public class ChromeBaseTest {
         return startLoadPageTime;
     }
 
-
     @Rule
     public TestWatcher watcher = new TestWatcher() {
 
